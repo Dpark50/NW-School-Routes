@@ -1,0 +1,7 @@
+#Thu Jan 26 22:15:35 PST 2017
+base.0=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6deee30f108229c124c5ee4e1b742f8e8bdc2aad
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0f0a25837b6776024d3ef31cb7263dcacbb461fd\\classes.dex
+base.1=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0f0a25837b6776024d3ef31cb7263dcacbb461fd
+file.0=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6deee30f108229c124c5ee4e1b742f8e8bdc2aad\\classes.dex
