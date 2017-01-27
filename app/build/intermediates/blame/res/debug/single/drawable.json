@@ -28,12 +28,12 @@
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_expanded_controller_play.xml"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
@@ -152,12 +152,12 @@
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_close_light.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\drawable\\mr_ic_close_light.xml"
     },
     {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_west_logo.jpg",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
@@ -340,12 +340,12 @@
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
-    },
-    {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",

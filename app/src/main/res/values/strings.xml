@@ -11,7 +11,7 @@
 
     // Used in Menu.class
     <string name="logout">Logout</string>
-    <string name="account_info">Account</string>
+    <string name="menu_account">Account</string>
     <string name="route_button">Route</string>
     <string name="map">Map</string>
 

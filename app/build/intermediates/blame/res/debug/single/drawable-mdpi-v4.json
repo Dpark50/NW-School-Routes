@@ -140,12 +140,12 @@
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-mdpi-v4\\ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_forward_30_white_36.png",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-mdpi-v4\\quantum_ic_forward_30_white_36.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.0.1\\res\\drawable-mdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",

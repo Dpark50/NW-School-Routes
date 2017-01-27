@@ -22,7 +22,7 @@
         android:onClick="logOut"/>
 
     <Button
-        android:text="@string/account_info"
+        android:text="@string/menu_account"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"

@@ -44,12 +44,12 @@
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_replay_white_24.png",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-hdpi-v4\\quantum_ic_replay_white_24.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\10.0.1\\res\\drawable-hdpi-v4\\cast_ic_notification_0.png"
     },
     {
-        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-hdpi-v4\\cast_abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.0.1\\res\\drawable-hdpi-v4\\cast_abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_dark.png",

@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="38125783464636"
+    timestamp="39470271527828"
     token="7977039743551950957"
     verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="780" />
+        duration="653" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="296" />
+        duration="31" />
     <task
         name="verifier"
-        duration="197" />
+        duration="6" />
 
     <artifact
         location="C:\Users\danie\git-repos\NW-School-Routes\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="38125783464636"
+        timestamp="39470271527828"
         verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\danie\git-repos\NW-School-Routes\app\build\outputs\apk\app-debug.apk"
