@@ -1,0 +1,2 @@
+Change directory to C:\Program Files\Java\jdk%your version%\bin
+run keytool -list -v -keystore C:\%path to .android folder%\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
