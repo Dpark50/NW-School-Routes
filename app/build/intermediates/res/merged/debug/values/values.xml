@@ -670,6 +670,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accept">Accept</string>
+    <string name="account_info">Account</string>
     <string name="app_name">NW School Safe Walk</string>
     <string name="cast_ad_label">Ad</string>
     <string name="cast_casting_to_device">Casting to %1$s</string>
@@ -729,6 +730,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="confirm_pass">Confirm Password</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
     <string name="debug_menu_ad_information">Ad Information</string>
@@ -736,14 +738,18 @@
     <string name="debug_menu_title">Select a Debug Mode</string>
     <string name="debug_menu_troubleshooting">Troubleshooting</string>
     <string name="decline">Decline</string>
+    <string name="fname">First Name</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        <!--
-        AIzaSyAM41VAFXqXTjlJmjK1tG4TFdHWTy4s0mU
-        AIzaSyDPJ_7Vgq5pgr6RhyiXYfc0ivRNsvitDnI
-        -->
+        
         AIzaSyCAKJdsDg3dnJClEtxT8T4eSDWjzpEdGx4
 
     </string>
+    <string name="guest">Guest</string>
+    <string name="lname">Last Name</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="map">Map</string>
+    <string name="mode_of_transport">Mode of Transportation</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_chooser_searching">Finding devices</string>
     <string name="mr_chooser_title">Cast to</string>
@@ -760,8 +766,11 @@
     <string name="mr_controller_stop">Stop casting</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="ok_button">OK</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
+    <string name="register_button">Register</string>
+    <string name="route_button">Route</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
@@ -769,6 +778,10 @@
     <string name="tagmanager_preview_dialog_button">Continue</string>
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
     <string name="tagmanager_preview_dialog_title">Preview</string>
+    <string name="textview_address">Address</string>
+    <string name="textview_password">Password</string>
+    <string name="textview_school">School</string>
+    <string name="textview_username">Username</string>
     <string name="title_activity_maps">Map</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

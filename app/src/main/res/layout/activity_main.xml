@@ -12,7 +12,7 @@
     tools:context="a00953315.comp3717.bcit.ca.nwschoolsafewalk.MainActivity">
 
     <Button
-        android:text="Register"
+        android:text="@string/register_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/login_button"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Login ID"
+        android:text="@string/textview_username"
         android:ems="10"
         android:layout_centerVertical="true"
         android:layout_alignEnd="@+id/password"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Password"
+        android:text="@string/textview_password"
         android:ems="10"
         android:id="@+id/password"
         android:layout_below="@+id/login_id"
@@ -42,7 +42,7 @@
         android:layout_marginTop="14dp" />
 
     <Button
-        android:text="Guest"
+        android:text="@string/guest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
@@ -61,7 +61,7 @@
         android:layout_marginBottom="23dp" />
 
     <Button
-        android:text="Login"
+        android:text="@string/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/login_button"

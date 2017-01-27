@@ -11,7 +11,7 @@
     tools:context="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Menu">
 
     <Button
-        android:text="Logout"
+        android:text="@string/logout"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         android:onClick="logOut"/>
 
     <Button
-        android:text="Account"
+        android:text="@string/account_info"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         android:onClick="accountInformation"/>
 
     <Button
-        android:text="Route"
+        android:text="@string/route_button"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         android:onClick="route"/>
 
     <Button
-        android:text="Map"
+        android:text="@string/map"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"

@@ -12,7 +12,7 @@
     tools:context="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Register">
 
     <TextView
-        android:text="First Name"
+        android:text="@string/fname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/first_name"
@@ -28,7 +28,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
 
     <TextView
-        android:text="Last Name"
+        android:text="@string/lname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -44,7 +44,7 @@
         android:id="@+id/last_name_input" />
 
     <TextView
-        android:text="Username"
+        android:text="@string/textview_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -60,7 +60,7 @@
         android:id="@+id/register_id" />
 
     <TextView
-        android:text="Password"
+        android:text="@string/textview_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -76,7 +76,7 @@
         android:id="@+id/editText8" />
 
     <TextView
-        android:text="Confirm Password"
+        android:text="@string/confirm_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -93,7 +93,7 @@
         android:singleLine="true" />
 
     <Button
-        android:text="Register"
+        android:text="@string/register_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

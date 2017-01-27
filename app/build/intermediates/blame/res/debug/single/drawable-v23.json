@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v23\\abc_control_background_material.xml"
     }

@@ -20,18 +20,8 @@
         android:layout_centerHorizontal="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
 
-    <TextView
-        android:text="Mode of Transportation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/mode_transport"
-        android:layout_below="@id/address_input"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:layout_alignStart="@id/address_input"
-        android:layout_marginTop="19dp" />
-
     <Button
-        android:text="OK"
+        android:text="@string/ok_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/route_button"
@@ -40,6 +30,16 @@
         android:layout_marginBottom="72dp"
         android:onClick="back"/>
 
+    <TextView
+        android:text="@string/mode_of_transport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mode_transport"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/address_input"
+        android:layout_alignStart="@+id/address_input" />
+
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,16 +47,6 @@
         android:layout_below="@id/mode_transport"
         android:layout_alignStart="@id/mode_transport"
         android:layout_alignEnd="@id/address_input" />
-
-    <TextView
-        android:text="School"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/school"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:layout_below="@id/transport_input"
-        android:layout_alignStart="@id/transport_input"
-        android:layout_marginTop="18dp" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -67,12 +57,23 @@
         android:layout_alignStart="@id/school" />
 
     <TextView
-        android:text="Address"
+        android:text="@string/textview_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/address"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="29dp"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/address_input" />
+
+    <TextView
+        android:text="School"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/school"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/transport_input"
+        android:layout_alignStart="@+id/transport_input" />
 
 </RelativeLayout>

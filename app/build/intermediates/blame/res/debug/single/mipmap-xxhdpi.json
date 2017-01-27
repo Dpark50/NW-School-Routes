@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }

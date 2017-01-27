@@ -12,7 +12,7 @@
 
     <Button
         android:id="@+id/back"
-        android:text="Back"
+        android:text="@string/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -21,7 +21,7 @@
         android:onClick="back"/>
 
     <TextView
-        android:text="Account Information"
+        android:text="@string/account_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -29,7 +29,7 @@
         android:id="@+id/acc_text" />
 
     <TextView
-        android:text="Name"
+        android:text="@string/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/acc_text"
@@ -38,7 +38,7 @@
         android:id="@+id/name_text" />
 
     <TextView
-        android:text="School"
+        android:text="@string/textview_school"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
@@ -65,7 +65,7 @@
         android:layout_toEndOf="@+id/name_text" />
 
     <TextView
-        android:text="Walked (km)"
+        android:text="@string/distance_walked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="71dp"

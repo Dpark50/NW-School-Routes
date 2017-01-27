@@ -1,7 +1,7 @@
-#Thu Jan 26 22:15:35 PST 2017
-base.0=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6deee30f108229c124c5ee4e1b742f8e8bdc2aad
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0f0a25837b6776024d3ef31cb7263dcacbb461fd\\classes.dex
-base.1=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0f0a25837b6776024d3ef31cb7263dcacbb461fd
-file.0=C\:\\Users\\danie\\Desktop\\NWSchoolSafeWalk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6deee30f108229c124c5ee4e1b742f8e8bdc2aad\\classes.dex
+#Thu Jan 26 23:11:18 PST 2017
+base.0=C\:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6133ea4b6338fb3871d04f6af7c72cee40819537
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e000e3fe667c340ab4a07e8d6601893bc1874aa6\\classes.dex
+base.1=C\:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e000e3fe667c340ab4a07e8d6601893bc1874aa6
+file.0=C\:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_6133ea4b6338fb3871d04f6af7c72cee40819537\\classes.dex
