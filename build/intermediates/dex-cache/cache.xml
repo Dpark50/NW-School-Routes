@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_9e49c3e59263439dda12eba5d30f277de74bff06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -93,6 +102,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_f2beef11abd9e1d62e65cc48493f49e8f1ebac6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -111,6 +129,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_f581704644fef50261859714b26dbdfe59b2a9d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -120,12 +147,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aed309bd79099d2d9794a58253a3ae54c9dc93b0">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6133ea4b6338fb3871d04f6af7c72cee40819537\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
         <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_603ccaee34e7fef88adecba3d5b041bbca8163c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_8f12351844f00d875887cffc6578ed2df87bc6da\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,6 +207,15 @@
         revision="25.0.2"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
         <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_89f38d0de543e2a684f0cf9b45ee4443000a5e4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_9339ddcbf59d16b30b768472c8bcd07969ca6985\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,168 +291,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_ada2b895cebc7197119a95595e21e11b5b916a50\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_e7f02786de853415bf0ec128930e4a4f255f6fc5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_d843da167ab43a9c9c06ec47ca0b32553a3977b7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_6bc414bbee5f4b47e30d695b5bdd978ed2b004b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_e15c13a971b5a343a9e66e5a3cdbbbff7300f4a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_43716b221ff952fdfc27695c9bcd78eeaa2c4187\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_381961a176e01ec7111bff62c31c83711d3de75b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_6f8360e50c64cb2cd4568098817ed7ff5bb8838e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_7087363b8293fb74432561f153687c01142e70a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_cd59d9c4470d8637cf64f9b69c4a5ae1238dec55\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_f5d48ccd70323fe71d3514d9320c6748f37793de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="485470c1b2a9ccd38fb711c1ed656b90cdf0a2c2">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e000e3fe667c340ab4a07e8d6601893bc1874aa6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_9e49c3e59263439dda12eba5d30f277de74bff06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_f2beef11abd9e1d62e65cc48493f49e8f1ebac6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_f581704644fef50261859714b26dbdfe59b2a9d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93bd5d9f1ae7ef393f22e28f0cc479853a7e372e">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6133ea4b6338fb3871d04f6af7c72cee40819537\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_8f12351844f00d875887cffc6578ed2df87bc6da\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_9339ddcbf59d16b30b768472c8bcd07969ca6985\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -444,12 +336,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_ada2b895cebc7197119a95595e21e11b5b916a50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_e7f02786de853415bf0ec128930e4a4f255f6fc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_d843da167ab43a9c9c06ec47ca0b32553a3977b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_6bc414bbee5f4b47e30d695b5bdd978ed2b004b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
         <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_3d214b4d045e4eea4af7accc225416a27f48651f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_e15c13a971b5a343a9e66e5a3cdbbbff7300f4a0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -462,6 +399,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_43716b221ff952fdfc27695c9bcd78eeaa2c4187\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -471,12 +417,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_381961a176e01ec7111bff62c31c83711d3de75b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
         <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_11d6d06e5f15adec37c6b1fb98515831325b09d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_6f8360e50c64cb2cd4568098817ed7ff5bb8838e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_7087363b8293fb74432561f153687c01142e70a3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -498,6 +471,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_cd59d9c4470d8637cf64f9b69c4a5ae1238dec55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -507,12 +489,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_f5d48ccd70323fe71d3514d9320c6748f37793de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="4b17463c814bdc562fb0392fa3494063623a0904">
         <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_37574c3b46b97c8e7acc30c2cd7f2d067baf1d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fbbf7d06279deb9186f05afd114f57df991a070">
+        <dex dex="C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e000e3fe667c340ab4a07e8d6601893bc1874aa6\classes.dex" />
     </item>
     <item
         is-multidex="true"
