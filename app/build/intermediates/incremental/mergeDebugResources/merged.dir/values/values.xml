@@ -742,14 +742,7 @@
     <string name="distance_walked">Walked (km)</string>
     <string name="fname">First Name</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        <!--
-        Terence key:
-        AIzaSyAM41VAFXqXTjlJmjK1tG4TFdHWTy4s0mU
-        Daniel key:
         AIzaSyCAKJdsDg3dnJClEtxT8T4eSDWjzpEdGx4
-        -->
-        AIzaSyCAKJdsDg3dnJClEtxT8T4eSDWjzpEdGx4
-
     </string>
     <string name="guest">Guest</string>
     <string name="lname">Last Name</string>

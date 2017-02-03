@@ -16,13 +16,6 @@
     string in this file.
     -->
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-        <!--
-        Terence key:
-        AIzaSyAM41VAFXqXTjlJmjK1tG4TFdHWTy4s0mU
-        Daniel key:
         AIzaSyCAKJdsDg3dnJClEtxT8T4eSDWjzpEdGx4
-        -->
-        AIzaSyCAKJdsDg3dnJClEtxT8T4eSDWjzpEdGx4
-
     </string>
 </resources>
