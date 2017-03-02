@@ -38,7 +38,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.MainActivity"
+            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Menu"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,16 +47,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Menu"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.AccountInformation"
             android:screenOrientation="portrait" />
         <activity
             android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Route"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Register"
             android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -73,7 +67,10 @@
         <activity
             android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Maps"
             android:label="@string/title_activity_maps" />
-        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -197,10 +194,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

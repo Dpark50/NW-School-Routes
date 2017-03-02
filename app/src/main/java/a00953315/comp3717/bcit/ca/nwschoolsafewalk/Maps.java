@@ -29,6 +29,11 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.kml.KmlLayer;
+
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.IOException;
 
 public class Maps extends FragmentActivity implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
@@ -117,6 +122,59 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                 settings.setZoomControlsEnabled(true);
             }
         }
+
+        retrieveFilesFromResource();
+    }
+
+    private void retrieveFilesFromResource() {
+        // Police department
+        try {
+            KmlLayer policeLayer = new KmlLayer(mMap, R.raw.police, getApplicationContext());
+            policeLayer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+
+        // School sites
+        try {
+            KmlLayer schoolLayer = new KmlLayer(mMap, R.raw.jibc, getApplicationContext());
+            schoolLayer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            KmlLayer schoolLayer = new KmlLayer(mMap, R.raw.schools, getApplicationContext());
+            schoolLayer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+/*
+        // School walking routes
+        try {
+            KmlLayer routesLayer = new KmlLayer(mMap, R.raw.walkingroutes, getApplicationContext());
+            routesLayer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+
+        // Fire and rescue services buildings
+        try {
+            KmlLayer fireRescueLayer = new KmlLayer(mMap, R.raw.firerescue, getApplicationContext());
+            fireRescueLayer.addLayerToMap();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }*/
     }
 
     protected synchronized void buildGoogleApiClient() {

@@ -11,15 +11,14 @@
     tools:context="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Menu">
 
     <Button
-        android:text="@string/logout"
+        android:text="@string/map"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:id="@+id/logout_button"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/map_button"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="30dp"
-        android:onClick="logOut"/>
+        android:layout_marginBottom="63dp"
+        android:onClick="map"/>
 
     <Button
         android:text="@string/menu_account"
@@ -28,7 +27,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/account_button"
         android:layout_marginBottom="59dp"
-        android:layout_above="@+id/route_button"
+        android:layout_below="@id/map_button"
         android:layout_alignParentStart="true"
         android:onClick="accountInformation"/>
 
@@ -39,19 +38,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/route_button"
         android:layout_marginBottom="66dp"
-        android:layout_above="@+id/logout_button"
+        android:layout_below="@id/account_button"
         android:layout_alignParentStart="true"
         android:onClick="route"/>
-
-    <Button
-        android:text="@string/map"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:id="@+id/map_button"
-        android:layout_above="@+id/account_button"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="63dp"
-        android:onClick="map"/>
 
 </RelativeLayout>

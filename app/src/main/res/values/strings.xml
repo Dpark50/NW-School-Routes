@@ -5,10 +5,6 @@
     <string name="textview_password">Password</string>
     <string name="register_button">Register</string>
 
-    // Used in MainActivity.class
-    <string name="login">Login</string>
-    <string name="guest">Guest</string>
-
     // Used in Menu.class
     <string name="logout">Logout</string>
     <string name="menu_account">Account</string>
@@ -21,14 +17,13 @@
     <string name="name">Name</string>
     <string name="distance_walked">Walked (km)</string>
 
-    // Used in Register.class
-    <string name="fname">First Name</string>
-    <string name="lname">Last Name</string>
-    <string name="confirm_pass">Confirm Password</string>
-
     // Used in Route.class
     <string name="ok_button">OK</string>
     <string name="mode_of_transport">Mode of Transportation</string>
     <string name="textview_school">School</string>
     <string name="textview_address">Address</string>
+    <string-array name="route_input_schools">
+        <item>All</item>
+        <item>JIBC</item>
+    </string-array>
 </resources>

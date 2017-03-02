@@ -1,8 +1,7 @@
 package a00953315.comp3717.bcit.ca.nwschoolsafewalk;
 
-import android.app.ProgressDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ProgressBar;
 
