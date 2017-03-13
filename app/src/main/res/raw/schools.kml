@@ -18,6 +18,14 @@
 <displayName>StrName</displayName>
 </SimpleField>
 </Schema>
+<Style id="transBlue">
+<LineStyle>
+<width>2.5</width>
+</LineStyle>
+<PolyStyle>
+<color>55F06E14</color>
+</PolyStyle>
+</Style>
 <Folder id="kml_ft_SCHOOL_SITES">
 <name>SCHOOL_SITES</name>
 <Placemark id="kml_1">
@@ -44,6 +52,7 @@
 <SimpleData name="StrName">RICHMOND ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -76,6 +85,7 @@
 <SimpleData name="StrName">MCBRIDE BLVD</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -108,6 +118,7 @@
 <SimpleData name="StrName">COURTNEY CRES</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -140,6 +151,7 @@
 <SimpleData name="StrName">SALTER ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -172,6 +184,7 @@
 <SimpleData name="StrName">SALTER ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -204,6 +217,7 @@
 <SimpleData name="StrName">LONDON ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -236,6 +250,7 @@
 <SimpleData name="StrName">EIGHTH AVE</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -268,6 +283,7 @@
 <SimpleData name="StrName">EIGHTH ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -300,6 +316,7 @@
 <SimpleData name="StrName">ROYAL AVE</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -332,6 +349,7 @@
 <SimpleData name="StrName">HAMILTON ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -364,6 +382,7 @@
 <SimpleData name="StrName">PARK CRES</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -396,6 +415,7 @@
 <SimpleData name="StrName">FADER ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -428,6 +448,7 @@
 <SimpleData name="StrName">EIGHTH AVE</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -460,6 +481,7 @@
 <SimpleData name="StrName">SECOND ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>
@@ -492,6 +514,7 @@
 <SimpleData name="StrName">MERIVALE ST</SimpleData>
 </SchemaData>
 </ExtendedData>
+<styleUrl>#transBlue</styleUrl>
 <Polygon>
 <outerBoundaryIs>
 <LinearRing>

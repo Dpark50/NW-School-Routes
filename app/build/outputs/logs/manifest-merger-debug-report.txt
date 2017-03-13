@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:3:5-58
 		INJECTED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:12:5-44:19
+ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:12:5-45:19
 MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.4\AndroidManifest.xml:7:5-11:19
 MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\AndroidManifest.xml:23:5-27:19
@@ -121,6 +121,10 @@ ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifes
 		ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:43:13-56
 	android:name
 		ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:42:13-33
+service#a00953315.comp3717.bcit.ca.nwschoolsafewalk.GeofenceTransitionsIntentService
+ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:44:9-68
+	android:name
+		ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:44:18-66
 uses-sdk
 INJECTED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.4\AndroidManifest.xml:5:5-43

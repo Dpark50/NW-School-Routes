@@ -13,11 +13,11 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="180dp"
         app:srcCompat="@drawable/new_west_logo"
         android:id="@+id/image_newwest"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="23dp" />
+        android:layout_marginBottom="50dp" />
 
     <Button
         android:text="@string/map"
@@ -27,7 +27,7 @@
         android:id="@+id/map_button"
         android:layout_alignParentStart="true"
         android:layout_below="@id/image_newwest"
-        android:layout_marginBottom="63dp"
+        android:layout_marginBottom="40dp"
         android:onClick="map"/>
 
     <Button
@@ -36,7 +36,7 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:id="@+id/account_button"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="40dp"
         android:layout_below="@id/map_button"
         android:layout_alignParentStart="true"
         android:onClick="accountInformation"/>
@@ -47,7 +47,6 @@
         android:layout_weight="1"
         android:layout_height="wrap_content"
         android:id="@+id/route_button"
-        android:layout_marginBottom="66dp"
         android:layout_below="@id/account_button"
         android:layout_alignParentStart="true"
         android:onClick="route"/>

@@ -68,6 +68,8 @@
             android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Maps"
             android:label="@string/title_activity_maps" />
 
+        <service android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.GeofenceTransitionsIntentService" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
