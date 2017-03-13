@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="a00953315.comp3717.bcit.ca.nwschoolsafewalk">
+    package="dtsquared.nwschoolsafewalk">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -15,16 +15,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Menu"
+        <activity android:name="dtsquared.nwschoolsafewalk.Menu"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AccountInformation"
+        <activity android:name="dtsquared.nwschoolsafewalk.AccountInformation"
             android:screenOrientation="portrait" />
-        <activity android:name=".Route"
+        <activity android:name="dtsquared.nwschoolsafewalk.Route"
             android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -39,9 +39,9 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Maps"
+            android:name="dtsquared.nwschoolsafewalk.Maps"
             android:label="@string/title_activity_maps"></activity>
-        <service android:name=".GeofenceTransitionsIntentService"/>
+        <service android:name="dtsquared.nwschoolsafewalk.GeofenceTransitionsIntentService"/>
     </application>
 
 </manifest>

@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Menu">
+    tools:context="dtsquared.nwschoolsafewalk.comp3717.bcit.ca.dtsquared.nwschoolsafewalk.dtsquared.dtsquared.nwschoolsafewalk.Menu">
 
     <ImageView
         android:layout_width="wrap_content"

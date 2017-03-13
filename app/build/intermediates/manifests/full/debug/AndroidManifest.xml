@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="a00953315.comp3717.bcit.ca.nwschoolsafewalk"
+    package="dtsquared.nwschoolsafewalk"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,10 +22,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.permission.C2D_MESSAGE"
+        android:name="dtsquared.nwschoolsafewalk.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.permission.C2D_MESSAGE" />
+    <uses-permission android:name="dtsquared.nwschoolsafewalk.permission.C2D_MESSAGE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -38,7 +38,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Menu"
+            android:name="dtsquared.nwschoolsafewalk.Menu"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,10 +47,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.AccountInformation"
+            android:name="dtsquared.nwschoolsafewalk.AccountInformation"
             android:screenOrientation="portrait" />
         <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Route"
+            android:name="dtsquared.nwschoolsafewalk.Route"
             android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -65,10 +65,10 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Maps"
+            android:name="dtsquared.nwschoolsafewalk.Maps"
             android:label="@string/title_activity_maps" />
 
-        <service android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk.GeofenceTransitionsIntentService" />
+        <service android:name="dtsquared.nwschoolsafewalk.GeofenceTransitionsIntentService" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -128,7 +128,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.a00953315.comp3717.bcit.ca.nwschoolsafewalk" />
+                <data android:scheme="tagmanager.c.dtsquared.nwschoolsafewalk" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -164,7 +164,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="a00953315.comp3717.bcit.ca.nwschoolsafewalk" />
+                <category android:name="dtsquared.nwschoolsafewalk" />
             </intent-filter>
         </receiver>
         <!--
@@ -188,7 +188,7 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="a00953315.comp3717.bcit.ca.nwschoolsafewalk.firebaseinitprovider"
+            android:authorities="dtsquared.nwschoolsafewalk.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

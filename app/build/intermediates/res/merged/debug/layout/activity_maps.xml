@@ -9,7 +9,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="a00953315.comp3717.bcit.ca.nwschoolsafewalk.Maps" />
+        tools:context="dtsquared.nwschoolsafewalk.comp3717.bcit.ca.dtsquared.nwschoolsafewalk.dtsquared.dtsquared.nwschoolsafewalk.Maps" />
 
     <Button
         android:id="@+id/map_back_button"

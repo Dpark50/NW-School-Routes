@@ -14,7 +14,7 @@ public class MainGenerator {
         final DaoGenerator generator;
         // final Property categoryId;
 
-        schema = new Schema(4, "a00953315.comp3717.bcit.ca.nwschoolsafewalk.database.schema");
+        schema = new Schema(4, "dtsquared.dtsquared.nwschoolsafewalk.database.schema");
 
         schoolEntity = schema.addEntity("School");
         schoolEntity.addIdProperty();
