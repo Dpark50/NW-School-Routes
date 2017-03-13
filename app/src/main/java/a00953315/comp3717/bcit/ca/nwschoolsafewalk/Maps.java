@@ -102,7 +102,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         buildGoogleApiClient();
-
     }
 
     public void checkLocationPermission(){
@@ -347,9 +346,9 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                     mLocationRequest, this);
         }
         Log.d("!!!!!!!!!!", "works onconnect");
-        geofenceMarker(RICHARDMcBRIDE);
+        /*geofenceMarker(RICHARDMcBRIDE);
         geofenceMarker(JIBC);
-        /*geofenceMarker(FWHOWAY);
+        geofenceMarker(FWHOWAY);
         geofenceMarker(QUEEN_ELIZABETH);
         geofenceMarker(QUEENSBOROUGH);
         geofenceMarker(CONNAUGHT_HEIGHTS);
@@ -362,7 +361,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         geofenceMarker(NW);
         geofenceMarker(HERBERT_SPENCER);
         geofenceMarker(QAYQAYT); */
-        //geofenceMarker(TEMP);
+        geofenceMarker(TEMP);
         startGeofence();
     }
 
