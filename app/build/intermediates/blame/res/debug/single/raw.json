@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\raw\\amu_unknwown_folder.kml",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.maps.android\\android-maps-utils\\0.4.4\\res\\raw\\amu_unknwown_folder.kml"
     },
@@ -70,6 +71,10 @@
     {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\raw\\amu_default_balloon.kml",
         "source": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.maps.android\\android-maps-utils\\0.4.4\\res\\raw\\amu_default_balloon.kml"
+=======
+        "merged": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-tagmanager-v4-impl\\10.0.1\\res\\raw\\gtm_analytics"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\danie\\git-repos\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
