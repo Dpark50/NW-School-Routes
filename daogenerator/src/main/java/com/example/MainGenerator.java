@@ -14,7 +14,7 @@ public class MainGenerator {
         final DaoGenerator generator;
         // final Property categoryId;
 
-        schema = new Schema(4, "dtsquared.dtsquared.nwschoolsafewalk.database.schema");
+        schema = new Schema(4, "dtsquared.nwschoolsafewalk.database.schema");
 
         schoolEntity = schema.addEntity("School");
         schoolEntity.addIdProperty();
@@ -25,7 +25,7 @@ public class MainGenerator {
         markerEntity.addStringProperty("name").notNull();
         markerEntity.addStringProperty("latitude");
         markerEntity.addStringProperty("longitude");
-        markerEntity.addStringProperty("geofencemaker");
+        markerEntity.addStringProperty("geofencemarker");
 
         //Adds categoryId from categoryEntity as foreign key to dataset table
         // categoryId = datasetEntity.addLongProperty("categoryId").notNull().getProperty();
