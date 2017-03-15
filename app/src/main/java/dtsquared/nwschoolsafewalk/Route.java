@@ -37,6 +37,7 @@ public class Route extends AppCompatActivity {
         helper.openDatabaseForReading(this);
         manager = getLoaderManager();
         manager.initLoader(0, null, new SchoolLoaderCallbacks());
+
         adapter = new SimpleCursorAdapter(getBaseContext(), android.R.layout.simple_spinner_item,
                 null,//helper.getSchoolsCursor(),
                 new String[] {
@@ -47,6 +48,7 @@ public class Route extends AppCompatActivity {
                 },
                 0
         );
+
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
@@ -61,12 +63,6 @@ public class Route extends AppCompatActivity {
                 // Another interface callback
             }
         });
-        // Create an ArrayAdapter using the string array and a default spinner layout
-        //ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                //R.array.route_input_schools, android.R.layout.simple_spinner_item);
-        // Specify the layout to use when the list of choices appears
-        //adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        // Apply the adapter to the spinner
     }
 
     private class SchoolLoaderCallbacks

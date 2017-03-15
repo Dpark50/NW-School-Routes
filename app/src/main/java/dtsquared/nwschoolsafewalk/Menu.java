@@ -42,7 +42,6 @@ public class Menu extends AppCompatActivity {
 
         intent = getIntent();
         //school = intent.getIntExtra("destination", -1);
-        //Toast.makeText(this, school, Toast.LENGTH_LONG).show();
     }
 
     private void init() {
@@ -112,6 +111,5 @@ public class Menu extends AppCompatActivity {
     protected void onActivityResult(final int requestCode,
                                     final int resultCode,
                                     final Intent intent) {
-        final int destination;
     }
 }

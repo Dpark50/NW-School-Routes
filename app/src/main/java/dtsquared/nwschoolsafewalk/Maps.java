@@ -55,21 +55,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     public static final int LOCATION_ACCESS_CODE = 1;
     private static final int REQUEST_RESOLVE_ERROR = 1001;
     private static final String DIALOG_ERROR = "dialog_error";
-    private static final LatLng RICHARDMcBRIDE = new LatLng(49.226546, -122.899537);
-    private static final LatLng JIBC = new LatLng(49.222264, -122.910133);
-    private static final LatLng FWHOWAY = new LatLng(49.226056, -122.912388);
-    private static final LatLng QUEEN_ELIZABETH = new LatLng(49.257411, -123.197517);
-    private static final LatLng QUEENSBOROUGH = new LatLng(49.186294, -122.940922);
-    private static final LatLng CONNAUGHT_HEIGHTS = new LatLng(49.202614, -122.954815);
-    private static final LatLng LORD_TWEEDSMUIR = new LatLng(49.205670, -122.942554);
-    private static final LatLng FRASER_RIVER = new LatLng(49.204704, -122.916450);
-    private static final LatLng DOUGLAS = new LatLng(49.203568, -122.912689);
-    private static final LatLng LORD_KELVIN = new LatLng(49.210974, -122.930177);
-    private static final LatLng GLENBROOK = new LatLng(42.043290, -72.550925);
-    private static final LatLng HUME_PARK = new LatLng(49.232917, -122.890297);
-    private static final LatLng NW = new LatLng(49.215781, -122.928791);
-    private static final LatLng HERBERT_SPENCER = new LatLng(49.217382, -122.913695);
-    private static final LatLng QAYQAYT = new LatLng(49.208025, -122.905131);
+
     private static final LatLng TEMP = new LatLng(49.248464, -123.001213);
 
     private static final long GEO_DURATION = 60 * 60 * 1000;
@@ -148,7 +134,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
             LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient,
                     mLocationRequest, this);
         }
-        Log.d("!!!!!!!!!!", "works onconnect");
 
         dtsquared.nwschoolsafewalk.database.schema.Marker marker = helper.getMarkerByGeofence(true);
 
@@ -157,21 +142,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         LatLng markerLatLng = new LatLng(lat, lng);
 
         geofenceMarker(markerLatLng);
-        /*geofenceMarker(RICHARDMcBRIDE);
-        geofenceMarker(JIBC);
-        geofenceMarker(FWHOWAY);
-        geofenceMarker(QUEEN_ELIZABETH);
-        geofenceMarker(QUEENSBOROUGH);
-        geofenceMarker(CONNAUGHT_HEIGHTS);
-        geofenceMarker(LORD_TWEEDSMUIR);
-        geofenceMarker(FRASER_RIVER);
-        geofenceMarker(DOUGLAS);
-        geofenceMarker(LORD_KELVIN);
-        geofenceMarker(GLENBROOK);
-        geofenceMarker(HUME_PARK);
-        geofenceMarker(NW);
-        geofenceMarker(HERBERT_SPENCER);
-        geofenceMarker(QAYQAYT); */
         //geofenceMarker(TEMP);
         startGeofence();
     }
@@ -200,8 +170,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
+     * This is where we can add markers or lines, add listeners or move the camera.
      * If Google Play services is not installed on the device, the user will be prompted to install
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
@@ -230,25 +199,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         retrieveKMLFiles();
     }
 
-    // Create a Location Marker
-    /*private void markerLocation(LatLng latLng) {
-        Log.i("", "markerLocation("+latLng+")");
-        String title = latLng.latitude + ", " + latLng.longitude;
-        MarkerOptions markerOptions = new MarkerOptions()
-                .position(latLng)
-                .title(title);
-        if ( mMap!=null ) {
-            // Remove the anterior marker
-            if ( locationMarker != null )
-                locationMarker.remove();
-            locationMarker = mMap.addMarker(markerOptions);
-            float zoom = 14f;
-            CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(latLng, zoom);
-            mMap.animateCamera(cameraUpdate);
-        }
-    }*/
-
-    // Create a marker for the geofence creation
+    // Create a marker for the geofence
     private void geofenceMarker(LatLng latLng) {
         Log.i("", "markerForGeofence(" + latLng + ")");
         String title = latLng.latitude + ", " + latLng.longitude;
@@ -304,7 +255,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         if (ContextCompat.checkSelfPermission(this,
                 android.Manifest.permission.ACCESS_FINE_LOCATION)
                 == PackageManager.PERMISSION_GRANTED) {
-            Log.d("!!!!!!", "in");
             LocationServices.GeofencingApi.addGeofences(
                     mGoogleApiClient,
                     request,
@@ -315,7 +265,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
 
     // Draw Geofence circle on GoogleMap
     private void drawGeofence() {
-        Log.d("Draw Geofence", "drawGeofence()");
+        //Log.d("Draw Geofence", "drawGeofence()");
 
         if (geoFenceLimits != null)
             geoFenceLimits.remove();
@@ -328,9 +278,9 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         geoFenceLimits = mMap.addCircle(circleOptions);
     }
 
-    // Start Geofence creation process
+    // Start Geofence creation
     private void startGeofence() {
-        Log.i("Start geofence", "startGeofence()");
+        //Log.i("Start geofence", "startGeofence()");
         if(geoFenceMarker != null) {
             Geofence geofence = createGeofence(geoFenceMarker.getPosition(), GEOFENCE_RADIUS);
             GeofencingRequest geofenceRequest = createGeofenceRequest(geofence);
@@ -339,10 +289,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
             Log.e("Geofence marker null", "Geofence marker is null");
         }
     }
-
-
-
-
 
     private void retrieveKMLFiles() {
         // School sites
@@ -354,7 +300,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         } catch (XmlPullParserException e) {
             e.printStackTrace();
         }
-
 
 /*
         // School walking routes
@@ -467,7 +412,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
 
     @Override
     public void onResult(@NonNull Status status) {
-        Log.d("!!!!!!", "onResult");
         if (status.isSuccess() ) {
             drawGeofence();
         } else {

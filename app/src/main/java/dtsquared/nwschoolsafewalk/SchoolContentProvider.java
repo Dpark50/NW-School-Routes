@@ -121,7 +121,6 @@ public class SchoolContentProvider extends ContentProvider{
     {
         int rowsUpdated = 0;
 
-        // TODO: Implement this to handle requests to update one or more rows.
         switch (uriMatcher.match(uri)) {
             case SCHOOLS_URI: {
                 final SQLiteDatabase db;
