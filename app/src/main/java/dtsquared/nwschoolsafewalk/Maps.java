@@ -46,6 +46,8 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 
+import dtsquared.nwschoolsafewalk.database.DatabaseHelper;
+
 public class Maps extends FragmentActivity implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
         LocationListener, ResultCallback<Status> {
@@ -73,13 +75,13 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "NW School Routes";
     private static final float GEOFENCE_RADIUS = 300.0f; // in meters
+    private DatabaseHelper helper;
     private GoogleMap mMap;
     GoogleApiClient mGoogleApiClient;
     Location mLastLocation;
     Marker mCurrentLocation;
     LocationRequest mLocationRequest;
     private boolean resolvingError;
-    private Marker locationMarker;
     private Marker geoFenceMarker;
     private PendingIntent geoFencePendingIntent;
     private final int GEOFENCE_REQ_CODE = 0;
@@ -95,6 +97,9 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         checkLocationPermission();
+
+        helper = DatabaseHelper.getInstance(this);
+        helper.openDatabaseForReading(this);
 
         // Map component to place the map.
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -126,6 +131,49 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                 .addApi(LocationServices.API)
                 .build();
         mGoogleApiClient.connect();
+    }
+
+    @Override
+    public void onConnected(Bundle bundle) {
+        mLocationRequest = new LocationRequest();
+        mLocationRequest.setInterval(10 * 1000);        // 10 sec
+        mLocationRequest.setFastestInterval(1000);      // 1 sec
+        // Obtain location (high accuracy), requires more power and time
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+
+        // Check permissions before calling APIs
+        if (ContextCompat.checkSelfPermission(this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient,
+                    mLocationRequest, this);
+        }
+        Log.d("!!!!!!!!!!", "works onconnect");
+
+        dtsquared.nwschoolsafewalk.database.schema.Marker marker = helper.getMarkerByGeofence(true);
+
+        float lat = Float.parseFloat(marker.getLatitude());
+        float lng = Float.parseFloat(marker.getLongitude());
+        LatLng markerLatLng = new LatLng(lat, lng);
+
+        geofenceMarker(markerLatLng);
+        /*geofenceMarker(RICHARDMcBRIDE);
+        geofenceMarker(JIBC);
+        geofenceMarker(FWHOWAY);
+        geofenceMarker(QUEEN_ELIZABETH);
+        geofenceMarker(QUEENSBOROUGH);
+        geofenceMarker(CONNAUGHT_HEIGHTS);
+        geofenceMarker(LORD_TWEEDSMUIR);
+        geofenceMarker(FRASER_RIVER);
+        geofenceMarker(DOUGLAS);
+        geofenceMarker(LORD_KELVIN);
+        geofenceMarker(GLENBROOK);
+        geofenceMarker(HUME_PARK);
+        geofenceMarker(NW);
+        geofenceMarker(HERBERT_SPENCER);
+        geofenceMarker(QAYQAYT); */
+        //geofenceMarker(TEMP);
+        startGeofence();
     }
 
     // Callback for the result from requesting permissions
@@ -328,41 +376,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         } catch (XmlPullParserException e) {
             e.printStackTrace();
         }*/
-    }
-
-    @Override
-    public void onConnected(Bundle bundle) {
-        mLocationRequest = new LocationRequest();
-        mLocationRequest.setInterval(10 * 1000);        // 10 sec
-        mLocationRequest.setFastestInterval(1000);      // 1 sec
-        // Obtain location (high accuracy), requires more power and time
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-
-        // Check permissions before calling APIs
-        if (ContextCompat.checkSelfPermission(this,
-                android.Manifest.permission.ACCESS_FINE_LOCATION)
-                == PackageManager.PERMISSION_GRANTED) {
-            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient,
-                    mLocationRequest, this);
-        }
-        Log.d("!!!!!!!!!!", "works onconnect");
-        /*geofenceMarker(RICHARDMcBRIDE);
-        geofenceMarker(JIBC);
-        geofenceMarker(FWHOWAY);
-        geofenceMarker(QUEEN_ELIZABETH);
-        geofenceMarker(QUEENSBOROUGH);
-        geofenceMarker(CONNAUGHT_HEIGHTS);
-        geofenceMarker(LORD_TWEEDSMUIR);
-        geofenceMarker(FRASER_RIVER);
-        geofenceMarker(DOUGLAS);
-        geofenceMarker(LORD_KELVIN);
-        geofenceMarker(GLENBROOK);
-        geofenceMarker(HUME_PARK);
-        geofenceMarker(NW);
-        geofenceMarker(HERBERT_SPENCER);
-        geofenceMarker(QAYQAYT); */
-        geofenceMarker(TEMP);
-        startGeofence();
     }
 
     @Override

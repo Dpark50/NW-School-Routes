@@ -1,5 +1,6 @@
 package dtsquared.nwschoolsafewalk.database;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -154,7 +155,7 @@ public class DatabaseHelper {
     }
 
     public Marker createMarker(final long id, final String name, final String latitude,
-                                 final String longitude, final String geofence)
+                                 final String longitude, final boolean geofence)
     {
         final Marker marker;
 
@@ -194,6 +195,25 @@ public class DatabaseHelper {
         return (marker);
     }
 
+    public Marker getMarkerByGeofence(final boolean geofencemarker)
+    {
+        final List<Marker> markers;
+        final Marker       marker;
+
+        markers = markerDao.queryBuilder().where(MarkerDao.Properties.Geofencemarker.eq(geofencemarker)).limit(1).list();
+
+        if(markers.isEmpty())
+        {
+            marker = null;
+        }
+        else
+        {
+            marker = markers.get(0);
+        }
+
+        return (marker);
+    }
+
     public List<Marker> getMarkers() {
         return (markerDao.loadAll());
     }
@@ -210,6 +230,16 @@ public class DatabaseHelper {
                 null,
                 orderBy);
         return (cursor);
+    }
+
+    public int update(final ContentValues values,
+                      final String selection,
+                      final String[] selectionArgs) {
+        int rowsUpdated = 0;
+
+        rowsUpdated = db.update(markerDao.getTablename(), values, selection, selectionArgs);
+
+        return rowsUpdated;
     }
 
     public long getNumberOfMarkers()

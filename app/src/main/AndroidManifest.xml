@@ -41,6 +41,11 @@
         <activity
             android:name="dtsquared.nwschoolsafewalk.Maps"
             android:label="@string/title_activity_maps"></activity>
+        <provider
+            android:name=".SchoolContentProvider"
+            android:authorities="dtsquared.nwschoolsafewalk"
+            android:enabled="true"
+            android:exported="false" />
         <service android:name="dtsquared.nwschoolsafewalk.GeofenceTransitionsIntentService"/>
     </application>
 

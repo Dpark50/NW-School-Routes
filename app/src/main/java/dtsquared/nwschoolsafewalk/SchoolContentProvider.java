@@ -20,14 +20,14 @@ public class SchoolContentProvider extends ContentProvider{
     static
     {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
-        uriMatcher.addURI("a00953315.comp3717.bcit.ca.dtsquared.nwschoolsafewalk", "schools", SCHOOLS_URI);
-        uriMatcher.addURI("a00953315.comp3717.bcit.ca.dtsquared.nwschoolsafewalk", "markers", MARKERS_URI);
+        uriMatcher.addURI("dtsquared.nwschoolsafewalk", "schools", SCHOOLS_URI);
+        uriMatcher.addURI("dtsquared.nwschoolsafewalk", "markers", MARKERS_URI);
     }
 
     static
     {
-        SCHOOL_URI = Uri.parse("content://a00953315.comp3717.bcit.ca.dtsquared.nwschoolsafewalk/schools");
-        MARKER_URI = Uri.parse("content://a00953315.comp3717.bcit.ca.dtsquared.nwschoolsafewalk/markers");
+        SCHOOL_URI = Uri.parse("content://dtsquared.nwschoolsafewalk/schools");
+        MARKER_URI = Uri.parse("content://dtsquared.nwschoolsafewalk/markers");
     }
 
     @Override
@@ -119,7 +119,31 @@ public class SchoolContentProvider extends ContentProvider{
                       final String selection,
                       final String[]      selectionArgs)
     {
+        int rowsUpdated = 0;
+
         // TODO: Implement this to handle requests to update one or more rows.
-        throw new UnsupportedOperationException("Not yet implemented");
+        switch (uriMatcher.match(uri)) {
+            case SCHOOLS_URI: {
+                final SQLiteDatabase db;
+
+                helper.openDatabaseForWriting(getContext());
+                //rowsUpdated = helper.getSchoolsCursor();
+                helper.close();
+                break;
+            }
+            case MARKERS_URI: {
+                final SQLiteDatabase db;
+
+                helper.openDatabaseForWriting(getContext());
+                rowsUpdated = helper.update(values, selection, selectionArgs);
+                helper.close();
+                break;
+            }
+            default: {
+                throw new UnsupportedOperationException("Not yet implemented");
+            }
+        }
+
+        return rowsUpdated;
     }
 }
