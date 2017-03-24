@@ -155,12 +155,11 @@ public class DatabaseHelper {
     }
 
     public Marker createMarker(final long id, final String name, final String latitude,
-                                 final String longitude, final boolean geofence)
-    {
+                               final String longitude, final String radius,
+                               final boolean geofence) {
         final Marker marker;
 
-        marker = new Marker(id,
-                name, latitude, longitude, geofence);
+        marker = new Marker(id, name, latitude, longitude, radius, geofence);
         markerDao.insert(marker);
 
         return (marker);

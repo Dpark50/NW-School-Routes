@@ -25,6 +25,7 @@ public class MainGenerator {
         markerEntity.addStringProperty("name").notNull();
         markerEntity.addStringProperty("latitude");
         markerEntity.addStringProperty("longitude");
+        markerEntity.addStringProperty("radius");
         markerEntity.addBooleanProperty("geofencemarker");
 
         //Adds categoryId from categoryEntity as foreign key to dataset table

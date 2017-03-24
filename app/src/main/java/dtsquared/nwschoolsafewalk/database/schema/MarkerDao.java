@@ -26,7 +26,8 @@ public class MarkerDao extends AbstractDao<Marker, Long> {
         public final static Property Name = new Property(1, String.class, "name", false, "NAME");
         public final static Property Latitude = new Property(2, String.class, "latitude", false, "LATITUDE");
         public final static Property Longitude = new Property(3, String.class, "longitude", false, "LONGITUDE");
-        public final static Property Geofencemarker = new Property(4, Boolean.class, "geofencemarker", false, "GEOFENCEMARKER");
+        public final static Property Radius = new Property(4, String.class, "radius", false, "RADIUS");
+        public final static Property Geofencemarker = new Property(5, Boolean.class, "geofencemarker", false, "GEOFENCEMARKER");
     }
 
 
@@ -46,7 +47,8 @@ public class MarkerDao extends AbstractDao<Marker, Long> {
                 "\"NAME\" TEXT NOT NULL ," + // 1: name
                 "\"LATITUDE\" TEXT," + // 2: latitude
                 "\"LONGITUDE\" TEXT," + // 3: longitude
-                "\"GEOFENCEMARKER\" INTEGER);"); // 4: geofencemarker
+                "\"RADIUS\" TEXT," + // 4: radius
+                "\"GEOFENCEMARKER\" INTEGER);"); // 5: geofencemarker
     }
 
     /** Drops the underlying database table. */
@@ -75,9 +77,14 @@ public class MarkerDao extends AbstractDao<Marker, Long> {
             stmt.bindString(4, longitude);
         }
  
+        String radius = entity.getRadius();
+        if (radius != null) {
+            stmt.bindString(5, radius);
+        }
+ 
         Boolean geofencemarker = entity.getGeofencemarker();
         if (geofencemarker != null) {
-            stmt.bindLong(5, geofencemarker ? 1L: 0L);
+            stmt.bindLong(6, geofencemarker ? 1L: 0L);
         }
     }
 
@@ -101,9 +108,14 @@ public class MarkerDao extends AbstractDao<Marker, Long> {
             stmt.bindString(4, longitude);
         }
  
+        String radius = entity.getRadius();
+        if (radius != null) {
+            stmt.bindString(5, radius);
+        }
+ 
         Boolean geofencemarker = entity.getGeofencemarker();
         if (geofencemarker != null) {
-            stmt.bindLong(5, geofencemarker ? 1L: 0L);
+            stmt.bindLong(6, geofencemarker ? 1L: 0L);
         }
     }
 
@@ -119,7 +131,8 @@ public class MarkerDao extends AbstractDao<Marker, Long> {
             cursor.getString(offset + 1), // name
             cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2), // latitude
             cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3), // longitude
-            cursor.isNull(offset + 4) ? null : cursor.getShort(offset + 4) != 0 // geofencemarker
+            cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4), // radius
+            cursor.isNull(offset + 5) ? null : cursor.getShort(offset + 5) != 0 // geofencemarker
         );
         return entity;
     }
@@ -130,7 +143,8 @@ public class MarkerDao extends AbstractDao<Marker, Long> {
         entity.setName(cursor.getString(offset + 1));
         entity.setLatitude(cursor.isNull(offset + 2) ? null : cursor.getString(offset + 2));
         entity.setLongitude(cursor.isNull(offset + 3) ? null : cursor.getString(offset + 3));
-        entity.setGeofencemarker(cursor.isNull(offset + 4) ? null : cursor.getShort(offset + 4) != 0);
+        entity.setRadius(cursor.isNull(offset + 4) ? null : cursor.getString(offset + 4));
+        entity.setGeofencemarker(cursor.isNull(offset + 5) ? null : cursor.getShort(offset + 5) != 0);
      }
     
     @Override

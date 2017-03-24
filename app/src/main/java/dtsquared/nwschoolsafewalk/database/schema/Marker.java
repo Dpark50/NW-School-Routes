@@ -17,6 +17,7 @@ public class Marker {
     private String name;
     private String latitude;
     private String longitude;
+    private String radius;
     private Boolean geofencemarker;
 
     @Generated
@@ -28,11 +29,12 @@ public class Marker {
     }
 
     @Generated
-    public Marker(Long id, String name, String latitude, String longitude, Boolean geofencemarker) {
+    public Marker(Long id, String name, String latitude, String longitude, String radius, Boolean geofencemarker) {
         this.id = id;
         this.name = name;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.radius = radius;
         this.geofencemarker = geofencemarker;
     }
 
@@ -68,6 +70,14 @@ public class Marker {
 
     public void setLongitude(String longitude) {
         this.longitude = longitude;
+    }
+
+    public String getRadius() {
+        return radius;
+    }
+
+    public void setRadius(String radius) {
+        this.radius = radius;
     }
 
     public Boolean getGeofencemarker() {

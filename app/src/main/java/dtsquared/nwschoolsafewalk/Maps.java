@@ -61,6 +61,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "NW School Routes";
     private static final float GEOFENCE_RADIUS = 300.0f; // in meters
+    private float geofenceRadius;
     private DatabaseHelper helper;
     private GoogleMap mMap;
     GoogleApiClient mGoogleApiClient;
@@ -137,6 +138,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
 
         dtsquared.nwschoolsafewalk.database.schema.Marker marker = helper.getMarkerByGeofence(true);
 
+        geofenceRadius = Float.parseFloat(marker.getRadius());
         float lat = Float.parseFloat(marker.getLatitude());
         float lng = Float.parseFloat(marker.getLongitude());
         LatLng markerLatLng = new LatLng(lat, lng);
@@ -274,7 +276,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                 .center(geoFenceMarker.getPosition())
                 .strokeColor(Color.argb(50, 70,70,70))
                 .fillColor( Color.argb(100, 150,150,150) )
-                .radius(GEOFENCE_RADIUS);
+                .radius(geofenceRadius);
         geoFenceLimits = mMap.addCircle(circleOptions);
     }
 
@@ -282,7 +284,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     private void startGeofence() {
         //Log.i("Start geofence", "startGeofence()");
         if(geoFenceMarker != null) {
-            Geofence geofence = createGeofence(geoFenceMarker.getPosition(), GEOFENCE_RADIUS);
+            Geofence geofence = createGeofence(geoFenceMarker.getPosition(), geofenceRadius);
             GeofencingRequest geofenceRequest = createGeofenceRequest(geofence);
             addGeofence(geofenceRequest);
         } else {
