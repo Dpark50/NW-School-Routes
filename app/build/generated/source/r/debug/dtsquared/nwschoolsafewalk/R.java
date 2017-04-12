@@ -3592,8 +3592,18 @@ containing a value of this type.
         public static final int amu_unknwown_folder=0x7f070011;
         public static final int amu_unsupported=0x7f070012;
         public static final int amu_visibility_ground_overlay=0x7f070013;
-        public static final int gtm_analytics=0x7f070014;
-        public static final int schools=0x7f070015;
+        public static final int connaughtheights=0x7f070014;
+        public static final int fwhoway=0x7f070015;
+        public static final int glenbrookmiddle=0x7f070016;
+        public static final int gtm_analytics=0x7f070017;
+        public static final int humepark=0x7f070018;
+        public static final int lordkelvin=0x7f070019;
+        public static final int lordtweedsmuir=0x7f07001a;
+        public static final int qayqayt=0x7f07001b;
+        public static final int queenelizabeth=0x7f07001c;
+        public static final int queensboroughmiddle=0x7f07001d;
+        public static final int richardmcbride=0x7f07001e;
+        public static final int schools=0x7f07001f;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f080000;
