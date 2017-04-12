@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
@@ -36,7 +35,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.Circle;
-import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -263,6 +261,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         }
     }
 
+    /*
     // Draw Geofence circle on GoogleMap
     private void drawGeofence() {
         //Log.d("Draw Geofence", "drawGeofence()");
@@ -277,6 +276,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                 .radius(geofenceRadius);
         geoFenceLimits = mMap.addCircle(circleOptions);
     }
+    */
 
     // Start Geofence creation
     private void startGeofence() {
@@ -412,11 +412,11 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
 
     @Override
     public void onResult(@NonNull Status status) {
-        if (status.isSuccess() ) {
+        /*if (status.isSuccess() ) {
             drawGeofence();
         } else {
             // inform about fail
-        }
+        }*/
     }
 
     public static class ErrorDialogFragment extends DialogFragment {
