@@ -72,21 +72,34 @@ public class Menu extends AppCompatActivity {
         }
 
         if (numMarkerEntries == 0) {
-            helper.createMarker(1, RICHARDMcBRIDE, "49.226546", "-122.899537", "100.0", true);
-            helper.createMarker(2, JIBC, "49.222264", "-122.910133", "150.0", false);
-            helper.createMarker(3, FWHOWAY, "49.226056", "-122.912388", "200.0", false);
-            helper.createMarker(4, QUEEN_ELIZABETH, "49.257411", "-123.197517", "200.0", false);
-            helper.createMarker(5, QUEENSBOROUGH, "49.186294", "-122.940922", "200.0", false);
-            helper.createMarker(6, CONNAUGHT_HEIGHTS, "49.202614", "-122.954815", "200.0", false);
-            helper.createMarker(7, LORD_TWEEDSMUIR, "49.205670", "-122.942554", "200.0", false);
-            helper.createMarker(8, FRASER_RIVER, "49.204704", "-122.916450", "200.0", false);
-            helper.createMarker(9, DOUGLAS, "49.203568", "-122.912689", "200.0", false);
-            helper.createMarker(10, LORD_KELVIN, "49.210974", "-122.930177", "200.0", false);
-            helper.createMarker(11, GLENBROOK, "42.043290", "-72.550925", "200.0", false);
-            helper.createMarker(12, HUME_PARK, "49.232917", "-122.890297", "200.0", false);
-            helper.createMarker(13, NW, "49.215781", "-122.928791", "200.0", false);
-            helper.createMarker(14, HERBERT_SPENCER, "49.217382", "-122.913695", "200.0", false);
-            helper.createMarker(15, QAYQAYT, "49.208025 ", "-122.905131", "200.0", false);
+            //ok
+            helper.createMarker(1, RICHARDMcBRIDE, "49.226546", "-122.899537", "70.0", true);
+            //ok
+            helper.createMarker(2, JIBC, "49.222264", "-122.910140", "115.0", false);
+            //ok
+            helper.createMarker(3, FWHOWAY, "49.226056", "-122.912369", "100.0", false);
+            //ok
+            helper.createMarker(4, QUEEN_ELIZABETH, "49.185000", "-122.944000", "90.0", false);
+            //ok
+            helper.createMarker(5, QUEENSBOROUGH, "49.186194", "-122.940822", "90.0", false);
+            //ok
+            helper.createMarker(6, CONNAUGHT_HEIGHTS, "49.202610", "-122.955700", "65.0", false);
+            //ok
+            helper.createMarker(7, LORD_TWEEDSMUIR, "49.205450", "-122.942310", "95.0", false);
+            //ok
+            helper.createMarker(8, FRASER_RIVER, "49.204190", "-122.916600", "80.0", false);
+            //ok
+            helper.createMarker(9, DOUGLAS, "49.203568", "-122.912689", "120.0", false);
+            helper.createMarker(10, LORD_KELVIN, "49.210900", "-122.930000", "75.0", false);
+            helper.createMarker(11, GLENBROOK, "49.220770", " -122.911280", "55.0", false);
+            //ok
+            helper.createMarker(12, HUME_PARK, "49.232900", "-122.890490", "30.0", false);
+            //ok
+            helper.createMarker(13, NW, "49.216300", "-122.927800", "185.0", false);
+            //ok
+            helper.createMarker(14, HERBERT_SPENCER, "49.217382", "-122.913592", "90.0", false);
+            //ok
+            helper.createMarker(15, QAYQAYT, "49.208260 ", "-122.905000", "80.0", false);
         }
 
         helper.close();

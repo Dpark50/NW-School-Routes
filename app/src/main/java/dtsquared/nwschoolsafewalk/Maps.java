@@ -55,9 +55,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     public static final int LOCATION_ACCESS_CODE = 1;
     private static final int REQUEST_RESOLVE_ERROR = 1001;
     private static final String DIALOG_ERROR = "dialog_error";
-
-    private static final LatLng TEMP = new LatLng(49.248464, -123.001213);
-
     private static final long GEO_DURATION = 60 * 60 * 1000;
     private static final String GEOFENCE_REQ_ID = "NW School Routes";
     private static final float GEOFENCE_RADIUS = 300.0f; // in meters
@@ -94,6 +91,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         buildGoogleApiClient();
+        helper.close();
     }
 
     public void checkLocationPermission(){
@@ -335,12 +333,12 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
 
         // Obtain current coordinates
         LatLng coordinates = new LatLng(location.getLatitude(), location.getLongitude());
-        MarkerOptions options = new MarkerOptions();
+        /*MarkerOptions options = new MarkerOptions();
         options.position(coordinates);
         options.title("Hmm");
         // Marker colour
         options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
-        mCurrentLocation = mMap.addMarker(options);
+        mCurrentLocation = mMap.addMarker(options);*/
 
         // Move map camera
         mMap.moveCamera(CameraUpdateFactory.newLatLng(coordinates));
