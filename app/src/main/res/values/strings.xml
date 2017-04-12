@@ -4,6 +4,10 @@
     <string name="textview_username">Username</string>
     <string name="textview_password">Password</string>
     <string name="register_button">Register</string>
+    <string name="mapbutton">MapButton</string>
+    <string name="accountbutton">AccountButton</string>
+    <string name="logo">Logo</string>
+    <string name="routebutton">RouteButton</string>
 
     // Used in Menu.class
     <string name="logout">Logout</string>

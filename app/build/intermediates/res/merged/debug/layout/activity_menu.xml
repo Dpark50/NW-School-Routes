@@ -19,36 +19,72 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="50dp" />
 
-    <Button
-        android:text="@string/map"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
+    <!--<Button-->
+        <!--android:text="@string/map"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/map_button"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@id/image_newwest"-->
+        <!--android:layout_marginBottom="40dp"-->
+        <!--android:onClick="map" >-->
+
+
+    <!--</Button>-->
+    <ImageButton
         android:id="@+id/map_button"
-        android:layout_alignParentStart="true"
-        android:layout_below="@id/image_newwest"
-        android:layout_marginBottom="40dp"
-        android:onClick="map"/>
+        android:layout_width="300px"
+        android:layout_height="125px"
+        android:background="@drawable/btnmap"
+        android:onClick="map"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/image_newwest"
+        android:layout_alignStart="@+id/account_button" />
 
-    <Button
-        android:text="@string/menu_account"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="125px"
         android:id="@+id/account_button"
-        android:layout_marginBottom="40dp"
-        android:layout_below="@id/map_button"
-        android:layout_alignParentStart="true"
-        android:onClick="accountInformation"/>
-
-    <Button
-        android:text="@string/route_button"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
+        android:background="@drawable/btnacct"
+        android:onClick="accountInformation"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/route_button"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="125px"
         android:id="@+id/route_button"
-        android:layout_below="@id/account_button"
-        android:layout_alignParentStart="true"
-        android:onClick="route"/>
+        android:background="@drawable/btnroute"
+        android:onClick="route"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/map_button" />
+
+    <!--<Button-->
+        <!--android:text="@string/menu_account"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/account_button"-->
+        <!--android:onClick="accountInformation"-->
+        <!--android:layout_marginTop="22dp"-->
+        <!--android:layout_below="@+id/map_button"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<Button-->
+        <!--android:text="@string/route_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/route_button"-->
+        <!--android:onClick="route"-->
+        <!--android:layout_marginBottom="13dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+
+
 
 </RelativeLayout>
