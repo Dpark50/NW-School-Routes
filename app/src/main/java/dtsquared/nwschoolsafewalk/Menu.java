@@ -9,21 +9,20 @@ import dtsquared.nwschoolsafewalk.database.DatabaseHelper;
 
 public class Menu extends AppCompatActivity {
     private static final String RICHARDMcBRIDE = "Richard McBride Elementary";
-    private static final String JIBC = "JIBC";
+    //private static final String JIBC = "JIBC";
     private static final String FWHOWAY = "FW Howay Elementary";
     private static final String QUEEN_ELIZABETH = "Queen Elizabeth Elementary";
     private static final String QUEENSBOROUGH = "Queensborough Middle";
     private static final String CONNAUGHT_HEIGHTS = "Connaught Heights Elementary";
     private static final String LORD_TWEEDSMUIR = "Lord Tweedsmuir Elementary";
-    private static final String FRASER_RIVER = "Ecole Fraser River Middle";
-    private static final String DOUGLAS = "Douglas College";
+    //private static final String FRASER_RIVER = "Ecole Fraser River Middle";
+    //private static final String DOUGLAS = "Douglas College";
     private static final String LORD_KELVIN = "Lord Kelvin Elementary";
     private static final String GLENBROOK = "Glenbrook Middle";
     private static final String HUME_PARK = "Hume Park Elementary";
-    private static final String NW = "New Westminster Secondary";
-    private static final String HERBERT_SPENCER = "Herbert Spencer Elementary";
+    //private static final String NW = "New Westminster Secondary";
+    //private static final String HERBERT_SPENCER = "Herbert Spencer Elementary";
     private static final String QAYQAYT = "Qayqayt Elementary";
-    int school;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,37 +54,37 @@ public class Menu extends AppCompatActivity {
 
         if (numSchoolEntries == 0) {
             helper.createSchool(1, RICHARDMcBRIDE);
-            helper.createSchool(2, JIBC);
+            //helper.createSchool(2, JIBC);
             helper.createSchool(3, FWHOWAY);
             helper.createSchool(4, QUEEN_ELIZABETH);
             helper.createSchool(5, QUEENSBOROUGH);
             helper.createSchool(6, CONNAUGHT_HEIGHTS);
             helper.createSchool(7, LORD_TWEEDSMUIR);
-            helper.createSchool(8, FRASER_RIVER);
-            helper.createSchool(9, DOUGLAS);
+            //helper.createSchool(8, FRASER_RIVER);
+            //helper.createSchool(9, DOUGLAS);
             helper.createSchool(10, LORD_KELVIN);
             helper.createSchool(11, GLENBROOK);
             helper.createSchool(12, HUME_PARK);
-            helper.createSchool(13, NW);
-            helper.createSchool(14, HERBERT_SPENCER);
+            //helper.createSchool(13, NW);
+            //helper.createSchool(14, HERBERT_SPENCER);
             helper.createSchool(15, QAYQAYT);
         }
 
         if (numMarkerEntries == 0) {
             helper.createMarker(1, RICHARDMcBRIDE, "49.226546", "-122.899537", "70.0", true);
-            helper.createMarker(2, JIBC, "49.222264", "-122.910140", "115.0", false);
+            //helper.createMarker(2, JIBC, "49.222264", "-122.910140", "115.0", false);
             helper.createMarker(3, FWHOWAY, "49.226056", "-122.912369", "100.0", false);
             helper.createMarker(4, QUEEN_ELIZABETH, "49.185000", "-122.944000", "90.0", false);
             helper.createMarker(5, QUEENSBOROUGH, "49.186194", "-122.940822", "90.0", false);
             helper.createMarker(6, CONNAUGHT_HEIGHTS, "49.202610", "-122.955700", "65.0", false);
             helper.createMarker(7, LORD_TWEEDSMUIR, "49.205450", "-122.942310", "95.0", false);
-            helper.createMarker(8, FRASER_RIVER, "49.204190", "-122.916600", "80.0", false);
-            helper.createMarker(9, DOUGLAS, "49.203568", "-122.912689", "120.0", false);
+            //helper.createMarker(8, FRASER_RIVER, "49.204190", "-122.916600", "80.0", false);
+            //helper.createMarker(9, DOUGLAS, "49.203568", "-122.912689", "120.0", false);
             helper.createMarker(10, LORD_KELVIN, "49.210900", "-122.930000", "75.0", false);
             helper.createMarker(11, GLENBROOK, "49.220770", " -122.911280", "55.0", false);
             helper.createMarker(12, HUME_PARK, "49.232900", "-122.890490", "30.0", false);
-            helper.createMarker(13, NW, "49.216300", "-122.927800", "185.0", false);
-            helper.createMarker(14, HERBERT_SPENCER, "49.217382", "-122.913592", "90.0", false);
+            //helper.createMarker(13, NW, "49.216300", "-122.927800", "185.0", false);
+            //helper.createMarker(14, HERBERT_SPENCER, "49.217382", "-122.913592", "90.0", false);
             helper.createMarker(15, QAYQAYT, "49.208260 ", "-122.905000", "80.0", false);
         }
 

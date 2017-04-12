@@ -107,7 +107,7 @@ private Marker marker;
         marker = helper.getMarkerByObjectId(selectedItem);
 
         // Set all values values to false
-        uri    = SchoolContentProvider.MARKER_URI;
+        uri = SchoolContentProvider.MARKER_URI;
         setValues = new ContentValues();
         setValues.put(MarkerDao.Properties.Geofencemarker.columnName, false);
         rowsUpdated = getContentResolver().update(uri, setValues, null, null);
@@ -115,8 +115,8 @@ private Marker marker;
         // Set selected school to true
         value = new ContentValues();
         value.put(MarkerDao.Properties.Geofencemarker.columnName, true);
-        rowsUpdated = getContentResolver().update(uri, value, MarkerDao.Properties.Id.columnName + " = '" +
-                marker.getId() + "'", null);
+        rowsUpdated = getContentResolver().update(uri, value, MarkerDao.Properties.Id.columnName +
+                " = '" + marker.getId() + "'", null);
 
         finish();
     }

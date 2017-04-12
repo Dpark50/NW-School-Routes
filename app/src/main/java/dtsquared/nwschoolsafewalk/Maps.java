@@ -34,7 +34,6 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -67,7 +66,8 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     private Marker geoFenceMarker;
     private PendingIntent geoFencePendingIntent;
     private final int GEOFENCE_REQ_CODE = 0;
-    private Circle geoFenceLimits;
+    private String pathChoice;
+    //private Circle geoFenceLimits;
 
     static Intent makeNotificationIntent(Context geofenceService, String msg) {
         Log.d("",msg);
@@ -194,19 +194,20 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
             }
         }
 
+        dtsquared.nwschoolsafewalk.database.schema.Marker marker = helper.getMarkerByGeofence(true);
+        pathChoice = marker.getName();
         retrieveKMLFiles();
     }
 
     // Create a marker for the geofence
     private void geofenceMarker(LatLng latLng) {
         Log.i("", "markerForGeofence(" + latLng + ")");
-        String title = latLng.latitude + ", " + latLng.longitude;
 
         // Define marker options
         MarkerOptions markerOptions = new MarkerOptions()
                 .position(latLng)
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
-                .title(title);
+                .title(pathChoice);
 
         if (mMap!=null) {
             // Remove last geoFenceMarker
@@ -301,26 +302,97 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
             e.printStackTrace();
         }
 
-/*
-        // School walking routes
-        try {
-            KmlLayer routesLayer = new KmlLayer(mMap, R.raw.walkingroutes, getApplicationContext());
-            routesLayer.addLayerToMap();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
+        if (pathChoice.equals("Richard McBride Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.richardmcbride, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("FW Howay Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.fwhoway, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Queen Elizabeth Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.queenelizabeth, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Queensborough Middle")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.queensboroughmiddle, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Connaught Heights Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.connaughtheights, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Lord Tweedsmuir Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.lordtweedsmuir, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Lord Kelvin Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.lordkelvin, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Glenbrook Middle")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.glenbrookmiddle, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Hume Park Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.humepark, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
+        } else if (pathChoice.equals("Qayqayt Elementary")) {
+            try {
+                KmlLayer pathLayer = new KmlLayer(mMap, R.raw.qayqayt, getApplicationContext());
+                pathLayer.addLayerToMap();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (XmlPullParserException e) {
+                e.printStackTrace();
+            }
         }
-
-        // Fire and rescue services buildings
-        try {
-            KmlLayer fireRescueLayer = new KmlLayer(mMap, R.raw.firerescue, getApplicationContext());
-            fireRescueLayer.addLayerToMap();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (XmlPullParserException e) {
-            e.printStackTrace();
-        }*/
     }
 
     @Override
@@ -349,7 +421,6 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         if (mGoogleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
         }
-
     }
 
     @Override

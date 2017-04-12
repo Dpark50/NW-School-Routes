@@ -7,7 +7,6 @@ import android.app.PendingIntent;
 import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 import android.util.Log;
@@ -98,8 +97,8 @@ public class GeofenceTransitionsIntentService extends IntentService {
     private Notification createNotification(String msg, PendingIntent notificationPendingIntent) {
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this);
         notificationBuilder
-                .setSmallIcon(R.drawable.logo)
-                .setColor(Color.WHITE)
+                .setSmallIcon(R.drawable.walklogo)
+                //.setColor(Color.WHITE)
                 .setContentTitle(msg)
                 .setContentText("You have arrived!")
                 .setContentIntent(notificationPendingIntent)

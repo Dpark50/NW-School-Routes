@@ -10,16 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="dtsquared.nwschoolsafewalk.Route">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="12"
-        android:id="@+id/address_input"
-        android:layout_below="@+id/address"
-        android:layout_centerHorizontal="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
-
     <Button
         android:text="@string/ok_button"
         android:layout_width="wrap_content"
@@ -55,16 +45,6 @@
         android:layout_below="@id/school"
         android:layout_alignEnd="@id/transport_input"
         android:layout_alignStart="@id/school" />
-
-    <TextView
-        android:text="@string/textview_address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/address"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:layout_marginTop="29dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/address_input" />
 
     <TextView
         android:text="School"

@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="180dp"
-        app:srcCompat="@drawable/new_west_logo"
+        app:srcCompat="@drawable/walklogo"
         android:id="@+id/image_newwest"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="50dp" />
