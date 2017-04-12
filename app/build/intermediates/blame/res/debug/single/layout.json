@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.google.maps.android\\android-maps-utils\\0.4.4\\res\\layout\\amu_info_window.xml"
     },
     {
-        "merged": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Teresa\\AndroidStudioProjects\\NW-School-Routes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
