@@ -22,8 +22,8 @@
 
     <ImageButton
         android:id="@+id/map_button"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
         android:background="@drawable/btnmap"
         android:onClick="map"
         android:scaleType="fitCenter"
@@ -32,8 +32,8 @@
         android:contentDescription="@string/mapbutton"/>
 
     <ImageButton
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
         android:id="@+id/account_button"
         android:background="@drawable/btnacct"
         android:onClick="accountInformation"
@@ -44,8 +44,8 @@
         android:layout_marginTop="32dp" />
 
     <ImageButton
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
         android:id="@+id/route_button"
         android:background="@drawable/btnroute"
         android:onClick="route"

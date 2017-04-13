@@ -3736,21 +3736,18 @@ containing a value of this type.
         public static final int ok_button=0x7f080084;
         public static final int place_autocomplete_clear_button=0x7f080063;
         public static final int place_autocomplete_search_hint=0x7f080064;
-        public static final int register_button=0x7f080085;
-        public static final int route_button=0x7f080086;
-        public static final int routebutton=0x7f080087;
+        public static final int route_button=0x7f080085;
+        public static final int routebutton=0x7f080086;
         public static final int search_menu_title=0x7f080065;
         public static final int status_bar_notification_info_overflow=0x7f080066;
         public static final int store_picture_message=0x7f080067;
         public static final int store_picture_title=0x7f080068;
-        public static final int tagmanager_preview_dialog_button=0x7f080088;
-        public static final int tagmanager_preview_dialog_message=0x7f080089;
-        public static final int tagmanager_preview_dialog_title=0x7f08008a;
-        public static final int textview_address=0x7f08008b;
-        public static final int textview_password=0x7f08008c;
-        public static final int textview_school=0x7f08008d;
-        public static final int textview_username=0x7f08008e;
-        public static final int title_activity_maps=0x7f08008f;
+        public static final int tagmanager_preview_dialog_button=0x7f080087;
+        public static final int tagmanager_preview_dialog_message=0x7f080088;
+        public static final int tagmanager_preview_dialog_title=0x7f080089;
+        public static final int textview_address=0x7f08008a;
+        public static final int textview_school=0x7f08008b;
+        public static final int title_activity_maps=0x7f08008c;
         public static final int wallet_buy_button_place_holder=0x7f080069;
     }
     public static final class style {

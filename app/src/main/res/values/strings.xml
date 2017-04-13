@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">NW School Safe Walk</string>
     <string name="title_activity_maps">Map</string>
-    <string name="textview_username">Username</string>
-    <string name="textview_password">Password</string>
-    <string name="register_button">Register</string>
     <string name="mapbutton">MapButton</string>
     <string name="accountbutton">AccountButton</string>
     <string name="logo">Logo</string>

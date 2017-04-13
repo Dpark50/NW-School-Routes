@@ -27,20 +27,14 @@ public class Menu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         final DatabaseHelper helper;
-        //final LoaderManager manager;
-        Intent intent;
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
         helper = DatabaseHelper.getInstance(this);
         helper.openDatabaseForReading(this);
-        //manager = getLoaderManager();
-        //manager.initLoader(0, null, new CategoryLoaderCallbacks());
         init();
-
-        intent = getIntent();
-        //school = intent.getIntExtra("destination", -1);
+        helper.close();
     }
 
     private void init() {

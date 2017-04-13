@@ -142,6 +142,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         geofenceMarker(markerLatLng);
         //geofenceMarker(TEMP);
         startGeofence();
+        helper.close();
     }
 
     // Callback for the result from requesting permissions
@@ -197,6 +198,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
         dtsquared.nwschoolsafewalk.database.schema.Marker marker = helper.getMarkerByGeofence(true);
         pathChoice = marker.getName();
         retrieveKMLFiles();
+        helper.close();
     }
 
     // Create a marker for the geofence
@@ -514,6 +516,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback,
     }
 
     public void back(View view) {
+        helper.close();
         finish();
     }
 }

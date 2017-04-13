@@ -769,7 +769,6 @@
     <string name="ok_button">OK</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
-    <string name="register_button">Register</string>
     <string name="route_button">Route</string>
     <string name="routebutton">RouteButton</string>
     <string name="search_menu_title">Search</string>
@@ -780,9 +779,7 @@
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
     <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="textview_address">Address</string>
-    <string name="textview_password">Password</string>
     <string name="textview_school">School</string>
-    <string name="textview_username">Username</string>
     <string name="title_activity_maps">Map</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
