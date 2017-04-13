@@ -10,7 +10,6 @@
     <string name="routebutton">RouteButton</string>
 
     // Used in Menu.class
-    <string name="logout">Logout</string>
     <string name="menu_account">Account</string>
     <string name="route_button">Route</string>
     <string name="map">Map</string>
@@ -26,8 +25,4 @@
     <string name="mode_of_transport">Mode of Transportation</string>
     <string name="textview_school">School</string>
     <string name="textview_address">Address</string>
-    <string-array name="route_input_schools">
-        <item>All</item>
-        <item>JIBC</item>
-    </string-array>
 </resources>

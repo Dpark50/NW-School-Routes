@@ -22,12 +22,12 @@ public class Route extends AppCompatActivity {
     private Spinner spinner;
     private SimpleCursorAdapter adapter;
     private Long selectedItem;
+    private Marker marker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         final DatabaseHelper helper;
         final LoaderManager manager;
-        //final Intent intent;
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route);
@@ -63,6 +63,8 @@ public class Route extends AppCompatActivity {
                 // Another interface callback
             }
         });
+
+        helper.close();
     }
 
     private class SchoolLoaderCallbacks
@@ -94,7 +96,6 @@ public class Route extends AppCompatActivity {
             adapter.swapCursor(null);
         }
     }
-private Marker marker;
 
     public void back(View view) {
         final DatabaseHelper helper;
@@ -118,6 +119,7 @@ private Marker marker;
         rowsUpdated = getContentResolver().update(uri, value, MarkerDao.Properties.Id.columnName +
                 " = '" + marker.getId() + "'", null);
 
+        helper.close();
         finish();
     }
 }
