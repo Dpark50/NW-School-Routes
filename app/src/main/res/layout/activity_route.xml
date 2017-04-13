@@ -26,17 +26,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/mode_transport"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:layout_marginTop="19dp"
-        android:layout_below="@+id/address_input"
-        android:layout_alignStart="@+id/address_input" />
+        android:layout_marginTop="19dp" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/transport_input"
         android:layout_below="@id/mode_transport"
-        android:layout_alignStart="@id/mode_transport"
-        android:layout_alignEnd="@id/address_input" />
+        android:layout_alignStart="@id/mode_transport" />
 
     <Spinner
         android:layout_width="match_parent"

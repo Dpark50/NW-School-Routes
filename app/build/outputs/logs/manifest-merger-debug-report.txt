@@ -137,6 +137,7 @@ ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifes
 		ADDED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml:49:18-92
 uses-sdk
 INJECTED from C:\Users\danie\git-repos\NW-School-Routes\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.4\AndroidManifest.xml:5:5-43
 MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.0.1\AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\danie\git-repos\NW-School-Routes\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\AndroidManifest.xml:17:5-42
